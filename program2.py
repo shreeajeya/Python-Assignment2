@@ -9,8 +9,8 @@ def BinarySort(arr, start, end, key):
             return BinarySort(arr, mid + 1, end, key)
     else:
         return -1
-arr=sorted(['a','j','e','y','a'])
-key='y'
+arr=sorted(['4','6','7','8','9'])
+key='4'
 result=BinarySort(arr,0,len(arr)-1,key)
 if result!=-1:
     print("element is at:"+str(result))
